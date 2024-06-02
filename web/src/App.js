@@ -1,5 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
+import Name from './components/Name';
+
 import Header  from "./components/header";
 
 function App() {
@@ -7,25 +9,23 @@ function App() {
   const listName = [
     'Jessica',
     'Davi',
-    'Fabio',
+    'Fabiççççço',
     'Leo',
     'Erick',
     'Sandra',
     'Jorge',
     'Jessica',
     'Davi',
-    'Fabio',
+    'Fab/////io',
     'Leo',
-    'Erick',
-    'Sandra',
-    'Jorge'
+    
   ]
 
   return (
     <div className="App">
-      
+    <Name fullname={'amogus'} age={'Fabio'}/>
       {
-        listName.map((items) => <Header name={items} age={25} />)
+        listName.map((items) => <Header name={items} age={25} status={0} obj={[]} />)
       }      
 
     </div>
