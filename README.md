@@ -1,8 +1,8 @@
-# Meu filho amado, segue comandos git:
+# Meu filho amado, segue comandos:
 
 abra um terminal e copie: git clone https://github.com/ZumuUKU/teste.git.
 
-# comandos react:
+# comandos git:
 
 git add, git commit, git push
 
